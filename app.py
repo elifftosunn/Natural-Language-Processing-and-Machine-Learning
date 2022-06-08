@@ -166,3 +166,4 @@ rf_grid.fit(x_train, y_train)
 print(rf_grid.best_params_)
 print('Best cv mean result: {0}'.format(round(rf_grid.best_score_,5)))
 print('Best holdout result: {0}'.format(round(accuracy_score(y_test, rf_grid.predict(x_test)),5)))
+
